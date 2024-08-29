@@ -6,9 +6,9 @@
 			use PHPMailer\PHPMailer\Exception;
 
 			//Einbinden der PHP Mailer Klasse
-			require 'assets/php/PHPMailer.php';
-			require 'assets/php/SMTP.php';
-			require 'assets/php/Exception.php';
+			require 'src\app\php\PHPMailer.php';
+			require 'src\app\php\SMTP.php';
+			require 'src\app\php\Exception.php';
 
 			date_default_timezone_set('Europe/Zurich');
 
